@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/github_pages_bestInvest/static/css/main.2d0fe7fc.chunk.css",
-    "main.js": "/github_pages_bestInvest/static/js/main.10884d17.chunk.js",
-    "main.js.map": "/github_pages_bestInvest/static/js/main.10884d17.chunk.js.map",
+    "main.js": "/github_pages_bestInvest/static/js/main.a37c5601.chunk.js",
+    "main.js.map": "/github_pages_bestInvest/static/js/main.a37c5601.chunk.js.map",
     "runtime-main.js": "/github_pages_bestInvest/static/js/runtime-main.9a8cde64.js",
     "runtime-main.js.map": "/github_pages_bestInvest/static/js/runtime-main.9a8cde64.js.map",
     "static/js/2.c9269ba1.chunk.js": "/github_pages_bestInvest/static/js/2.c9269ba1.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.9a8cde64.js",
     "static/js/2.c9269ba1.chunk.js",
     "static/css/main.2d0fe7fc.chunk.css",
-    "static/js/main.10884d17.chunk.js"
+    "static/js/main.a37c5601.chunk.js"
   ]
 }
