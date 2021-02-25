@@ -1,10 +1,6 @@
 import React from 'react';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-} from "react-router-dom";
-/*import browserHistory from './browserHistory';*/
+import {Router, Route, Switch} from 'react-router-dom';
+import browserHistory from './browserHistory';
 import './App.css';
 import Home from './pages/Home/Home';
 import DisposalOfHazardousSlag from "./pages/DisposalOfHazardousSlag";
@@ -21,10 +17,10 @@ import Waste from "./pages/Waste";
 const App = () => {
 
   return (
-      <Router basename={window.location.pathname || ''} >
+      <Router history={browserHistory} basename={window.location.pathname || ''}>
         {
 
-              <Switch >
+              <Switch>
 
 
                 <Route exact path='/' component={Home}/>
