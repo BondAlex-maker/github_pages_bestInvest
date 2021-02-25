@@ -17,10 +17,10 @@ import Waste from "./pages/Waste";
 const App = () => {
 
   return (
-      <Router history={browserHistory}>
+      <Router history={browserHistory} basename={window.location.pathname || ''} >
         {
 
-              <Switch>
+              <Switch >
 
 
                 <Route exact path='/' component={Home}/>
