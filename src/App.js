@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter,Router, Route, Switch} from 'react-router-dom';
+import {Router, Route, Switch} from 'react-router-dom';
 import browserHistory from './browserHistory';
 import './App.css';
 import Home from './pages/Home/Home';
@@ -17,7 +17,7 @@ import Waste from "./pages/Waste";
 const App = () => {
 
   return (
-      <BrowserRouter basename={window.location.pathname || ''}>
+      <Router basename="/joonline">
         {
 
               <Switch>
@@ -33,7 +33,7 @@ const App = () => {
 
               </Switch>}
 
-      </BrowserRouter>
+      </Router>
   );
 }
 
