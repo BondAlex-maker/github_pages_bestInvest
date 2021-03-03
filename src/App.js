@@ -17,7 +17,7 @@ import Waste from "./pages/Waste";
 const App = () => {
 
   return (
-      <Router basename="/joonline">
+      <Router basename={process.env.PUBLIC_URL}>
         {
 
               <Switch>
