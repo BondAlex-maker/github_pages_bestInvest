@@ -1,6 +1,5 @@
 import React from 'react';
-import {Route, Switch} from 'react-router-dom';
-import { HashRouter as Router } from 'react-router-dom'
+import {Router, Route, Switch} from 'react-router-dom';
 import browserHistory from './browserHistory';
 import './App.css';
 import Home from './pages/Home/Home';
@@ -18,7 +17,7 @@ import Waste from "./pages/Waste";
 const App = () => {
 
   return (
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router history={browserHistory}>
         {
 
               <Switch>

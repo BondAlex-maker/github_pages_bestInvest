@@ -1,5 +1,4 @@
 {
-  "homepage": "https://bondalex-maker.github.io/github_pages_bestInvest/",
   "name": "best-invest",
   "version": "0.1.0",
   "private": true,
@@ -20,6 +19,7 @@
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"
   },
+  "homepage": ".",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
