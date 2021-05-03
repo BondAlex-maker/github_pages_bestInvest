@@ -15,7 +15,7 @@ class Header extends React.Component{
         return (
             <div className={styles.headerContainer} >
 
-                <div className={styles.UpLogo}>
+                <div className={styles.upLogo}>
                         <img src={`logo.png`} alt='logo'/>
                 </div>
                 <Menu></Menu>
